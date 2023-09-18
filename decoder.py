@@ -1,4 +1,5 @@
 import huffman  #import the Huffman module you created
+import pickle  #import the pickle module for deserialization
 
 def decode_file(input_file, output_file):
     with open(input_file, 'rb') as infile, open(output_file, 'w') as outfile:
